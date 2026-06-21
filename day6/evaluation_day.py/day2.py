@@ -111,29 +111,29 @@ match question:
 
     case 7:
         #Q7
-choice = input(print("Enter choices: (1:Triangle, 2:Square, 3:Diamond)" ))
-match choice:
-    case 1:
-        n = 5
+        choice = input(print("Enter choices: (1:Triangle, 2:Square, 3:Diamond)" ))
+        match choice:
+            case 1:
+                n = 5
 
-        for i in range(1, n + 1):
-            print("*" * i)
+                for i in range(1, n + 1):
+                    print("*" * i)
 
-    case 2:
+            case 2:
 
-        n = 5
+                n = 5
 
-        for i in range(n):
-            print("*" * n)
+                for i in range(n):
+                    print("*" * n)
 
-    case 3:
-        n = 5
+            case 3:
+                n = 5
 
-        for i in range(1, n + 1):
-            print(" " * (n - i) + "*" * (2 * i - 1))
+                for i in range(1, n + 1):
+                    print(" " * (n - i) + "*" * (2 * i - 1))
 
-        for i in range(n - 1, 0, -1):
-            print(" " * (n - i) + "*" * (2 * i - 1))
+                for i in range(n - 1, 0, -1):
+                    print(" " * (n - i) + "*" * (2 * i - 1))
 
     case 8:
 
